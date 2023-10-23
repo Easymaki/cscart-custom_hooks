@@ -1,11 +1,8 @@
-# cscart-custom_hooks
-With this modification you will be able to install custom hooks for cs-cart, which gives you the ability to modify the core of cs-cart without affecting it, but only by adding custom hooks that you specify in the json file inside your module.
-
 # CS-Cart Custom Hooks Module
 
-![CS-Cart Logo](https://www.cs-cart.com/images/logo.png)
+![CS-Cart Logo](https://www.cs-cart.ru/shopping-cart/free/images/logos/cscart_logo_color@2x.png)
 
-## Описание
+## Description
 
 With this modification you will be able to install custom hooks for cs-cart, which gives you the ability to modify the core of cs-cart without affecting it, but only by adding custom hooks that you specify in the json file inside your module.
 
@@ -13,7 +10,7 @@ With this modification you will be able to install custom hooks for cs-cart, whi
 
 1. Clone this repository to your local computer:
 
-```bash
+```
 git clone https://github.com/easymaki/cscart-custom_hooks.git
 ```
 
