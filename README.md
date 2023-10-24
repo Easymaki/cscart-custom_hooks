@@ -4,7 +4,7 @@
 
 ## Description
 
-With this modification you will be able to install custom hooks for cs-cart, which gives you the ability to modify the core of cs-cart without affecting it, but only by adding custom hooks that you specify in the json file inside your module.
+With this modification you will be able to install custom hooks for cs-cart, which gives you the ability to modify the core of cs-cart without affecting it, but only by adding custom hooks that you specify in the json file inside your add-on.
 
 ## Install
 
@@ -13,18 +13,15 @@ With this modification you will be able to install custom hooks for cs-cart, whi
 ```
 git clone https://github.com/easymaki/cscart-custom_hooks.git
 ```
-
-2. Upload the folder to the `app/addons` directory of your CS-Cart store.
-
-3. In the CS-Cart admin panel, go to "Add-ons" and find "[NS] Custom hooks". Install and activate the module.
+2. Install the add-on in your store using the [instruction](https://docs.cs-cart.com/latest/user_guide/addons/1manage_addons.html).
 
 4. Done! Now you can add custom hooks to your store.
 
 ## Use
 
-To add a custom hook, follow these steps:
+To add a custom hook in your add-on, follow these steps:
 
-1. In the directory of your module, create the file "hooks.json"
+1. In the directory of your add-on, create the file "hooks.json"
 
 2. Fill in the json file following the example:
 
@@ -41,7 +38,7 @@ To add a custom hook, follow these steps:
 }
 ```
 
-3. Done! When the module is installed, the custom hooks will be added to the corresponding files.
+3. Done! When the add-on is installed, the custom hooks will be added to the corresponding files.
 
 ## Facilitation
 
