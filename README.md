@@ -8,13 +8,13 @@ With this modification you will be able to install custom hooks for cs-cart, whi
 
 ## Install
 
-1. Clone this repository to your local computer:
+1. Clone this repository:
 
 ```
 git clone https://github.com/easymaki/cscart-custom_hooks.git
 ```
 
-2. Upload the contents of the `src` folder to the `app/addons` directory of your CS-Cart store.
+2. Upload the folder to the `app/addons` directory of your CS-Cart store.
 
 3. In the CS-Cart admin panel, go to "Add-ons" and find "[NS] Custom hooks". Install and activate the module.
 
@@ -34,9 +34,10 @@ To add a custom hook, follow these steps:
         {
             "hook": "test_hook",
             "line": 138,
-            "file_path": "app/functions/fn.users.php"
+            "file_path": "app/functions/fn.users.php",
+            "args": "$user_id, $fields, $join"
             
-        },
+        }
     ]
 }
 ```
