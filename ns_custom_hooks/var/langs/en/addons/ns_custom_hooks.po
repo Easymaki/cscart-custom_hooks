@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ns_custom_hooks"
+msgid "[NS] Custom hooks"
+msgstr "[NS] Custom hooks"
+
+msgctxt "Languages::ns_custom_hooks.error_json"
+msgid "When installing the add-on, an error occurred while decoding JSON. No new hooks have been added."
+msgstr "When installing the add-on, an error occurred while decoding JSON. No new hooks have been added."
+
+msgctxt "Languages::ns_custom_hooks.error_file_put_contents"
+msgid "When installing the add-on, an error occurred while modifying one or all files. Check if the JSON file is filled in correctly or check the permissions to modify files."
+msgstr "When installing the add-on, an error occurred while modifying one or all files. Check if the JSON file is filled in correctly or check the permissions to modify files."

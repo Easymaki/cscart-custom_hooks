@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ns_custom_hooks</id>
+    <version>1.0</version>
+    <priority>800</priority>
+    <position>600</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+</addon>
