@@ -1,7 +1,6 @@
 <?php
 
 use Tygh\Registry;
-use Tygh\Enum\ObjectStatuses;
 use Tygh\Enum\NotificationSeverity;
 
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
