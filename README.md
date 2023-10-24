@@ -36,7 +36,6 @@ To add a custom hook, follow these steps:
             "line": 138,
             "file_path": "app/functions/fn.users.php",
             "args": "$user_id, $fields, $join"
-            
         }
     ]
 }
