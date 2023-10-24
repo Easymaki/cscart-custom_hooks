@@ -25,8 +25,20 @@ To add a custom hook in your add-on, follow these steps:
 
 2. Fill in the json file following the example:
 
-```
- {
+- `"4.17.1"`: This specifies the CS-Cart version for which the hook is intended. You can have multiple versions with different hooks specified.
+
+- `"hook"`: This is the name of the hook you want to add.
+
+- `"line"`: This indicates the line number where the hook should be added in the specified file.
+
+- `"file_path"`: This is the path to the file from the root directory in your store to which the hook should be added.
+
+- `"args"`: These are the arguments that the hook function expects. They should be specified as a comma-separated string.
+
+Example:
+
+```json
+{
     "4.17.1": [
         {
             "hook": "test_hook",
@@ -36,6 +48,7 @@ To add a custom hook in your add-on, follow these steps:
         }
     ]
 }
+
 ```
 
 3. Done! When the add-on is installed, the custom hooks will be added to the corresponding files.
